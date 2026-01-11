@@ -2,7 +2,7 @@ name: hourly-check
 
 on:
   schedule:
-    - cron: "0 * * * *"   # every hour (UTC)
+    - cron: "* * * * *"   # every hour (UTC)
   workflow_dispatch:
 
 jobs:
