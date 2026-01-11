@@ -71,7 +71,7 @@ def main() -> None:
 
         print("Notifications sent.")
 
-    sys.exit(0 if found else 1)
+    sys.exit(0)
 
 if __name__ == "__main__":
     main()
